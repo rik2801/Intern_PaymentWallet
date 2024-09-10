@@ -1,4 +1,4 @@
-#Payment Wallet Project
+#**Payment Wallet Project**<br>
 A secure and simple payment wallet application developed during my internship using Spring Boot, Java, Gradle, React, and MySQL. The project facilitates seamless digital transactions with features like user authentication, balance management, fund transfers, transaction history, and integration with external payment gateways.
 
 #Features
