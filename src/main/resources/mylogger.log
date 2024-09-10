@@ -1,0 +1,141 @@
+29-04-2021 10:09:38 - INFO  com.capg.payment_wallet_application.PaymentWalletApplication : Starting PaymentWalletApplication using Java 15.0.1 on Arunk_m with PID 6708 (C:\Users\ELCOT\git\PaymentWallet\PaymentWalletApplication\bin\main started by Arun in C:\Users\ELCOT\git\PaymentWallet\PaymentWalletApplication)
+29-04-2021 10:09:38 - INFO  com.capg.payment_wallet_application.PaymentWalletApplication : No active profile set, falling back to default profiles: default
+29-04-2021 10:09:48 - INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+29-04-2021 10:09:49 - INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 568 ms. Found 6 JPA repository interfaces.
+29-04-2021 10:09:53 - INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 9191 (http)
+29-04-2021 10:09:53 - INFO  org.apache.catalina.core.StandardService : Starting service [Tomcat]
+29-04-2021 10:09:53 - INFO  org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.44]
+29-04-2021 10:09:54 - INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+29-04-2021 10:09:54 - INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 14794 ms
+29-04-2021 10:09:55 - INFO  org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+29-04-2021 10:09:56 - INFO  org.hibernate.Version : HHH000412: Hibernate ORM core version 5.4.29.Final
+29-04-2021 10:09:57 - INFO  org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+29-04-2021 10:09:58 - INFO  com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+29-04-2021 10:10:01 - INFO  com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+29-04-2021 10:10:02 - INFO  org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+29-04-2021 10:10:12 - INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+29-04-2021 10:10:12 - INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+29-04-2021 10:10:15 - WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+29-04-2021 10:10:16 - INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+29-04-2021 10:10:17 - INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+29-04-2021 10:10:18 - INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 9191 (http) with context path ''
+29-04-2021 10:10:18 - INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Context refreshed
+29-04-2021 10:10:18 - INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+29-04-2021 10:10:18 - INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner : Scanning for api listing references
+29-04-2021 10:10:20 - INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator : Generating unique operation named: viewAllTransactionsUsingGET_1
+29-04-2021 10:10:20 - INFO  com.capg.payment_wallet_application.PaymentWalletApplication : Started PaymentWalletApplication in 43.76 seconds (JVM running for 51.105)
+29-04-2021 10:23:49 - INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+29-04-2021 10:23:51 - INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+29-04-2021 10:23:51 - INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+29-04-2021 10:23:51 - INFO  com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+29-04-2021 10:23:51 - INFO  com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+29-04-2021 11:05:32 - INFO  com.capg.payment_wallet_application.PaymentWalletApplication : Starting PaymentWalletApplication using Java 15.0.1 on Arunk_m with PID 9788 (C:\Users\ELCOT\git\PaymentWallet\PaymentWalletApplication\bin\main started by Arun in C:\Users\ELCOT\git\PaymentWallet\PaymentWalletApplication)
+29-04-2021 11:05:32 - INFO  com.capg.payment_wallet_application.PaymentWalletApplication : No active profile set, falling back to default profiles: default
+29-04-2021 11:05:38 - INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+29-04-2021 11:05:38 - INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 210 ms. Found 6 JPA repository interfaces.
+29-04-2021 11:05:40 - INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 9191 (http)
+29-04-2021 11:05:40 - INFO  org.apache.catalina.core.StandardService : Starting service [Tomcat]
+29-04-2021 11:05:40 - INFO  org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.44]
+29-04-2021 11:05:41 - INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+29-04-2021 11:05:41 - INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 8165 ms
+29-04-2021 11:05:41 - INFO  org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+29-04-2021 11:05:41 - INFO  org.hibernate.Version : HHH000412: Hibernate ORM core version 5.4.29.Final
+29-04-2021 11:05:42 - INFO  org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+29-04-2021 11:05:42 - INFO  com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+29-04-2021 11:05:43 - INFO  com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+29-04-2021 11:05:44 - INFO  org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+29-04-2021 11:05:48 - INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+29-04-2021 11:05:48 - INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+29-04-2021 11:05:50 - WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+29-04-2021 11:05:51 - INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+29-04-2021 11:05:51 - INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+29-04-2021 11:05:52 - INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 9191 (http) with context path ''
+29-04-2021 11:05:52 - INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Context refreshed
+29-04-2021 11:05:53 - INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+29-04-2021 11:05:54 - INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner : Scanning for api listing references
+29-04-2021 11:05:56 - INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator : Generating unique operation named: viewAllTransactionsUsingGET_1
+29-04-2021 11:05:56 - INFO  com.capg.payment_wallet_application.PaymentWalletApplication : Started PaymentWalletApplication in 26.486 seconds (JVM running for 29.781)
+29-04-2021 11:07:18 - INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+29-04-2021 11:07:18 - INFO  org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+29-04-2021 11:07:18 - INFO  org.springframework.web.servlet.DispatcherServlet : Completed initialization in 3 ms
+29-04-2021 11:07:56 - INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+29-04-2021 11:07:57 - INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+29-04-2021 11:07:57 - INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+29-04-2021 11:07:57 - INFO  com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+29-04-2021 11:07:57 - INFO  com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+29-04-2021 11:08:07 - INFO  com.capg.payment_wallet_application.PaymentWalletApplication : Starting PaymentWalletApplication using Java 15.0.1 on Arunk_m with PID 10424 (C:\Users\ELCOT\git\PaymentWallet\PaymentWalletApplication\bin\main started by Arun in C:\Users\ELCOT\git\PaymentWallet\PaymentWalletApplication)
+29-04-2021 11:08:07 - INFO  com.capg.payment_wallet_application.PaymentWalletApplication : No active profile set, falling back to default profiles: default
+29-04-2021 11:08:10 - INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+29-04-2021 11:08:10 - INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 190 ms. Found 6 JPA repository interfaces.
+29-04-2021 11:08:11 - INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 9191 (http)
+29-04-2021 11:08:11 - INFO  org.apache.catalina.core.StandardService : Starting service [Tomcat]
+29-04-2021 11:08:11 - INFO  org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.44]
+29-04-2021 11:08:12 - INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+29-04-2021 11:08:12 - INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4526 ms
+29-04-2021 11:08:12 - INFO  org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+29-04-2021 11:08:12 - INFO  org.hibernate.Version : HHH000412: Hibernate ORM core version 5.4.29.Final
+29-04-2021 11:08:13 - INFO  org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+29-04-2021 11:08:13 - INFO  com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+29-04-2021 11:08:13 - INFO  com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+29-04-2021 11:08:13 - INFO  org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+29-04-2021 11:08:16 - INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+29-04-2021 11:08:16 - INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+29-04-2021 11:08:18 - WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+29-04-2021 11:08:19 - INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+29-04-2021 11:08:19 - INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+29-04-2021 11:08:19 - INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 9191 (http) with context path ''
+29-04-2021 11:08:19 - INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Context refreshed
+29-04-2021 11:08:19 - INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+29-04-2021 11:08:20 - INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner : Scanning for api listing references
+29-04-2021 11:08:20 - INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator : Generating unique operation named: viewAllTransactionsUsingGET_1
+29-04-2021 11:08:20 - INFO  com.capg.payment_wallet_application.PaymentWalletApplication : Started PaymentWalletApplication in 14.093 seconds (JVM running for 16.233)
+29-04-2021 11:08:39 - INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+29-04-2021 11:08:39 - INFO  org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+29-04-2021 11:08:39 - INFO  org.springframework.web.servlet.DispatcherServlet : Completed initialization in 6 ms
+29-04-2021 11:09:30 - INFO  com.capg.payment_wallet_application.controller.WalletController : Customer profile is created sucessfully
+29-04-2021 11:09:30 - INFO  com.capg.payment_wallet_application.service.WalletServiceImpl : createAccount() is get intiated
+29-04-2021 11:09:41 - INFO  com.capg.payment_wallet_application.controller.WalletController : Customer profile is created sucessfully
+29-04-2021 11:09:41 - INFO  com.capg.payment_wallet_application.service.WalletServiceImpl : createAccount() is get intiated
+29-04-2021 11:09:41 - INFO  com.capg.payment_wallet_application.service.WalletServiceImpl : createAccount() is get executed
+29-04-2021 11:12:02 - INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+29-04-2021 11:12:02 - INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+29-04-2021 11:12:02 - INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+29-04-2021 11:12:02 - INFO  com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+29-04-2021 11:12:02 - INFO  com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+29-04-2021 11:16:06 - INFO  com.capg.payment_wallet_application.PaymentWalletApplication : Starting PaymentWalletApplication using Java 15.0.1 on Arunk_m with PID 12772 (C:\Users\ELCOT\git\PaymentWallet\PaymentWalletApplication\bin\main started by Arun in C:\Users\ELCOT\git\PaymentWallet\PaymentWalletApplication)
+29-04-2021 11:16:06 - INFO  com.capg.payment_wallet_application.PaymentWalletApplication : No active profile set, falling back to default profiles: default
+29-04-2021 11:16:09 - INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+29-04-2021 11:16:09 - INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 180 ms. Found 6 JPA repository interfaces.
+29-04-2021 11:16:10 - INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 9191 (http)
+29-04-2021 11:16:10 - INFO  org.apache.catalina.core.StandardService : Starting service [Tomcat]
+29-04-2021 11:16:10 - INFO  org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.44]
+29-04-2021 11:16:11 - INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+29-04-2021 11:16:11 - INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4804 ms
+29-04-2021 11:16:11 - INFO  org.hibernate.jpa.internal.util.LogHelper : HHH000204: Processing PersistenceUnitInfo [name: default]
+29-04-2021 11:16:11 - INFO  org.hibernate.Version : HHH000412: Hibernate ORM core version 5.4.29.Final
+29-04-2021 11:16:12 - INFO  org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+29-04-2021 11:16:12 - INFO  com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+29-04-2021 11:16:12 - INFO  com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+29-04-2021 11:16:12 - INFO  org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+29-04-2021 11:16:15 - INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+29-04-2021 11:16:15 - INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+29-04-2021 11:16:17 - WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+29-04-2021 11:16:18 - INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+29-04-2021 11:16:18 - INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+29-04-2021 11:16:19 - INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 9191 (http) with context path ''
+29-04-2021 11:16:19 - INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Context refreshed
+29-04-2021 11:16:19 - INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+29-04-2021 11:16:19 - INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner : Scanning for api listing references
+29-04-2021 11:16:20 - INFO  springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator : Generating unique operation named: viewAllTransactionsUsingGET_1
+29-04-2021 11:16:20 - INFO  com.capg.payment_wallet_application.PaymentWalletApplication : Started PaymentWalletApplication in 14.886 seconds (JVM running for 16.979)
+29-04-2021 11:16:52 - INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+29-04-2021 11:16:52 - INFO  org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+29-04-2021 11:16:52 - INFO  org.springframework.web.servlet.DispatcherServlet : Completed initialization in 5 ms
+29-04-2021 11:19:33 - INFO  com.capg.payment_wallet_application.controller.BillPaymentController : BillPayment is added sucessfully
+29-04-2021 11:19:33 - INFO  com.capg.payment_wallet_application.service.BillPaymentServiceImpl : addBillPayment() is get intiated
+29-04-2021 11:19:33 - INFO  com.capg.payment_wallet_application.service.BillPaymentServiceImpl : addBillPayment() is get executed
+29-04-2021 11:53:06 - INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+29-04-2021 11:53:18 - INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+29-04-2021 11:53:19 - INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+29-04-2021 11:53:21 - INFO  com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+29-04-2021 11:53:22 - INFO  com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
